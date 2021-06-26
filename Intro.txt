@@ -1,0 +1,1 @@
+Nesta aula ganharemos maior conhecimento de JavaScript e seus conceitos que irão fazer nossa aplicação ganhar maiores poderes! Adicionaremos os componentes finais da nossa aplicação
