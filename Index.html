@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OriginSix</title>
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!--NAV = elementos de click - navegação-->
+      <nav class="container">
+        <a class="logo" href="#">beauty<span>salon.</span></a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <!--'#' = pesquisa o link dentro da página e não externo-->
+            <li><a class="title" href="#home">Inicio</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <!--SRC = onde está o arquivo | ALT = Alternativo, se não achar a imagem do src, descreve o que tem na imagem-->
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Mulher sorrindo penteando outra mulher"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
+            <p>
+              Um salão exclusivo em Porto Alegre, especializado em tratamentos
+              naturais.
+            </p>
+            <a class="button" href="#">Agendar um horário</a>
+          </div>
+        </div>
+      </section>
+      <!--Linha de divisão de section 1-->
+      <div class="divider-1"></div>
+
+      <!-- ================================ Menu ================================-->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="3 mulheres sorrindo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              quos, asperiores in dolorum, harum eaque incidunt maxime
+              architecto exercitationem illo amet libero? Maiores, alias.
+              Doloribus molestiae nam consequuntur doloremque? Quaerat.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt
+              perspiciatis veniam, voluptatibus iste id quae eveniet cum
+              adipisci quo dolore odio pariatur? Rerum molestias ipsa
+              repudiandae quia possimus doloremque.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae quae non aut culpa. Vitae illo perspiciatis minus iure
+              expedita, deleniti unde mollitia hic? Id laborum est dolorum amet?
+              Illum, consequuntur!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Linha de divisão de section 2-->
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o
+              <strong>Beautysalon</strong> já conquistou clientes de inúmeros
+              países com seus tratamentos exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia Capilar</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deserunt at dolores, praesentium, autem aliquid obcaecati
+                necessitatibus quis nemo fuga neque, ratione
+              </p>
+            </div>
+            <div class="card">
+              <!-- tag <i></i> usada para icones-->
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+                asperiores, omnis, provident eveniet deserunt dolore voluptates
+                nam, ex voluptatem sequi neque cum
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                perferendis, eaque sapiente cum explicabo eos fugiat assumenda
+                at porro, voluptate quis, neque ut
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
