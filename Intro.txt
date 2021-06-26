@@ -1,0 +1,1 @@
+Nesta aula vamos construir novos elementos para o nosso projeto, fazendo ele ficar ainda mais dinâmico e único, com mais programação Javascript e ajustes CSS. Aprenderemos a usar códigos de outros desenvolvedores.
