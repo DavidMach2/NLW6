@@ -1,0 +1,1 @@
+Estamos finalizando nossa aplicação  e nesta aula vamos refinar a aplicação criando adaptações para diversos dispositivos. Colocaremos nosso código no GitHub e teremos um link para que nossos colegas, familiares ou clientes, possam ver o projeto funcionando. Além disso, apresentaremos desafios para que você continue evoluindo nesse universo da programação.
